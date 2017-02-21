@@ -56,7 +56,7 @@ public class JavaSimpleExample {
         // Standard URI format: mongodb://[dbuser:dbpassword@]host:port/dbname
         //enteer  database creds
        
-        MongoClientURI uri  = new MongoClientURI("mongodb://userLV7:QQcWUu2Oublubq3c@10.1.101.90:27017/sampledb"); 
+        MongoClientURI uri  = new MongoClientURI("mongodb://userLV7:QQcWUu2Oublubq3c@10.1.43.69:27017/sampledb"); 
         MongoClient client = new MongoClient(uri);
         MongoDatabase db = client.getDatabase(uri.getDatabase());
         
